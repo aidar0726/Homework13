@@ -42,6 +42,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return authorName.toString();
+        return authorName.toString() +  ", Название книги: " + bookName + ", Год издания: " + publishingYear;
     }
 }
